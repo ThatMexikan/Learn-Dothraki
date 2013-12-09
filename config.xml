@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = ""
+        versionCode="10" 
+        version   = "1.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Learn Dothraki</name>
+
+    <description>
+        Learn a language from the land of Westeros: Dothraki. Used in the HBO show Game of Thrones
+    </description>
+
+    <author email="wafflez@outlook.com">
+		Louis Sandoval
+    </author>
+
+	<icon src="icon.png"/>
+	
+	<plugin name="Storage" value="org.apache.cordova.Storage" />
+	<preference name="fullscreen" value="true" />
+	
+</widget>
