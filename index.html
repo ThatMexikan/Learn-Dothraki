@@ -19,12 +19,16 @@
 	<br/><br/>
 
 	<div ng-controller="WordSearch">
-		<input ng-model="query" placeholder="word to lookup" />
-
+		<input ng-model="query" size="80%" placeholder="word or phrase" />
+		<button type="reset">X</button>
 		<br/><br/>
 		
 		<div ng-repeat="word in dictionary | filter:query">
-			<h3>{{word.dothraki}} <i>[{{word.type}}]</i> {{word.english}}</h3>
+			<h3>
+				<span class="dothraki">{{word.dothraki}}</span>
+				<span class="type">[{{word.type}}]</span> 
+				<span class="english">{{word.english}}</span>
+			</h3>
 			<br/>
 		</div>
 		

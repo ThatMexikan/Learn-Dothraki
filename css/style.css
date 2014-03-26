@@ -4,8 +4,23 @@ body
 	color:#009900;
 }
 
-a
+h3
 {
-	color:#009900;
-	text-decoration:none;
+	color:white;
+}
+
+.dothraki
+{
+
+}
+
+.type
+{
+	color:gray;
+	text-style:italic;
+}
+
+.english
+{
+	color:white;
 }
